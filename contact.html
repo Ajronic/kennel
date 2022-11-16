@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dog Kennel Webpage</title>
+</head>
+<body>
+<div class="banner">
+    <div>
+        <h1>Welcome to our site</h1>
+    </div>
+</div>
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="breed.html">Breed</a></li>
+        <li><a href="dogs.html">Dogs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a class="active"  href="contact.html">Contact</a></li>
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+      </ul>
+</div>
+<h1>Contact us</h1>
+<p>Fill the form below to contact us.</p>
+
+<input type="text" placeholder="Enter your name" id="Name" />
+<br><br>
+<input type="email" placeholder="Enter your email" id="email" />
+<br><br>
+<textarea id="question" rows="4"></textarea>
+<br><br>
+<button onclick="sendContact();">Send</button>
+
+</body>
+</html>
